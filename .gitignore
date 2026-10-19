@@ -1,0 +1,68 @@
+# ==========================================
+# Dependencies and Package Managers
+# ==========================================
+node_modules/
+jspm_packages/
+web_modules/
+vendor/
+.pnp/
+.pnp.js
+.vagrant
+
+# ==========================================
+# Environments, Secrets, and API Keys
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# ==========================================
+# Build Artifacts and Compilers
+# ==========================================
+dist/
+build/
+out/
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+__pycache__/
+
+# ==========================================
+# Logs and Caches
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.cache/
+.venv/
+# ==========================================
+# IDEs and Text Editors
+# ==========================================
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ==========================================
+# System Junk Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
